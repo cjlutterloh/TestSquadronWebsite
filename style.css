@@ -1,0 +1,260 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
+
+h1, h2, h3, h4, h5, h6, p, a, span, li, label, button, legend, table{
+	font-family: 'Roboto', sans-serif;
+}
+a{
+	color: #001452;
+	text-decoration: none;
+	transition: .5s all;
+	-webkit-transition: .5s all;
+}
+a:hover,
+a:focus{
+	color: #9933ff;
+}
+input:focus, 
+textarea:focus{
+	outline-color: #8f8fb2;
+}
+html,
+body{
+	margin: 0;
+	padding: 0;
+  	background: url(img/header_lg.jpg)no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.hero .title {
+	color: #fff; 
+	margin: 0;
+	padding: 1em 20px 0 20px;
+}
+.hero .title .first-line{
+	margin: 0 auto;
+	margin-bottom: 10px;
+	display: block;
+	font-size: 1.6em;
+	text-shadow: 2px 2px #002e4d;
+}
+.hero .first-line{
+	color: white;
+}
+/*Navigation*/
+.header-bar {
+	background-color: #004d80;
+	position: fixed;
+	width: 100%;
+	top:0;
+	overflow: hidden;
+}
+#main_patch{
+	width: 70px;
+	height: 70px;
+	margin: 0px 10px 15px 0px;
+	text-align: center;
+}
+.dropbtn {
+    background-color: #004d80;
+    color: white;
+    padding: 14px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: .5s all;
+	transition: .5s all;
+}
+.dropbtn:hover, .dropdbtn:focus {
+    background-color: #002e4d;
+    color: #fff;
+}
+.dropdown {
+    float:right;
+}
+.dropdown-content {
+	width: 20%;
+    display: none;
+    position: fixed;
+    overflow: visible;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    right: 16px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1000;
+}
+.dropdown-content a:hover{
+	background-color: #e6e6e6;
+	-webkit-transition: .5s all;
+	transition: .5s all;
+}
+.dropdown-content a{
+	vertical-align: middle;
+	display: block;
+	padding: 3px 3px 3px 3px;
+}
+.dropdown-content h3{
+	color: #004d80;
+}
+#myDropdown
+{
+    max-height: 700px;
+    overflow: auto;
+    overflow-y: auto;
+}
+.show {
+    display: block;
+}
+.link_images {
+    float:right;
+    vertical-align:middle;
+    padding-top: 10px;
+    margin-right: -10px;
+}
+.link_images a img{
+	width: 80%;
+}
+
+/*Content*/
+.section{
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	overflow: hidden;
+	padding: 150px 0;
+}
+.section:nth-child(odd) {
+	background-color: rgba(0, 77, 128, 0.9);
+	color: #ffffff;
+}
+.section:nth-child(odd) .title{
+	color: #fff;
+	text-shadow: 2px 2px #004d80;
+}
+.section:nth-child(even) {
+	background-color: rgba(255, 255, 255, 0.9);
+	color: #001452;
+}
+.banner_img {
+	margin-bottom: 50px;
+	width: 100%;
+}
+.title-col{
+	width: 40%;
+	float: left;
+}
+.title-col img{
+	width: 100%;
+	margin-left: 30%;
+	margin-top: 50%;
+}
+.text-col{
+	width: 60%;
+	float: right;
+}
+.content-text {
+	font-weight: 700;
+}
+.section:nth-child(even) .title-col{
+	float: right;
+}
+.section:nth-child(odd) .text-col{
+	float: left;
+}
+.section .content{
+	max-width: 900px;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+.content .title{
+	color: #333;
+	font-size: 36px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.content p,
+.content li{
+	line-height: 1.8em;
+}
+.content table th{
+	margin: 0 auto;
+}
+.content #top_row th {
+	padding: 0px 65px 40px 65px;
+}
+.button{
+	display: block;
+	max-width: 140px;
+	font-weight: bold;
+	font-size: 16px;
+	background: #004d80;
+	padding: 12px;
+	margin: 20px auto 0 auto;
+	color: white;
+	border-radius: 6px;
+	text-decoration: none;
+	text-align: center;
+	border: 0;
+}
+.button:hover, 
+.button:focus{
+	background-color: #002e4d;
+	color: #fff;
+}
+.hero .button{
+	max-width: 200px;
+}
+
+.map{
+	max-width: 372px;
+	border-radius: 20px;
+	margin-top: 50px;
+	width: 100%;
+}
+.social-media-icon{
+	outline: 0;
+	border: 0;
+	margin: 20px;
+	display: inline-block;
+}
+.social-media-icon:hover,
+.social-media-icon:focus{
+	opacity: .5;
+	-webkit-transition: .5s all;
+	transition: .5s all;
+}
+.social-media-icon img{
+	border: 0;
+	outline: 0;
+}
+fieldset{
+	border: 1px solid;
+}
+
+/*Footer*/
+.footer{
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+	color: #ffffff;
+}
+.copyright{
+	font-size: 11px;
+	font-weight: bold;
+}
+.top{
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	background: rgba(255,255,255,.4);
+padding: .5em;
+border-radius: 6px;
+box-shadow: 0px 0px 4px;
+}
